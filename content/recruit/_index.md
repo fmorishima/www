@@ -81,7 +81,7 @@ FPGAエンジニア |
 	right_footer_2="安価で信頼性の高い宇宙用コンピュータを開発するJAXAベンチャーです。",
 	right_link="/about_us",
 
-	bottom_card_image = "<!--display element -->",
+	bottom_card_image = "",
 	bottom_title="CONTACT",
 	bottom_subtitle="お問い合わせ",
 	bottom_footer_1="事業やサービスについてご相談・ご質問承ります。",

@@ -97,7 +97,7 @@ TEL｜050-7112-6213
 	right_footer_2="ご興味のある方はご連絡ください。",
 	right_link="/recruit",
 
-	bottom_card_image = "<!--display element -->",
+	bottom_card_image = "",
 	bottom_title="CONTACT",
 	bottom_subtitle="お問い合わせ",
 	bottom_footer_1="事業やサービスについてご相談・ご質問承ります。",

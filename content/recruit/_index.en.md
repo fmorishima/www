@@ -83,7 +83,7 @@ Systems Engineer |
 	right_footer_2="we are a JAXA venture developing affordable and reliable computers for space use.",
 	right_link="/en/about_us",
 
-	bottom_card_image = "<!--display element -->",
+	bottom_card_image = "",
 	bottom_title="CONTACT",
 	bottom_subtitle="Reach out to us.",
 	bottom_footer_1="We welcome inquiries about our business and services.",

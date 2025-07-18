@@ -113,32 +113,32 @@
 	Zephyr Info Page | This is the dedicated SC-OBC Module A1 page on the Zephyr Project site. | https://docs.zephyrproject.org/latest/boards/sc/scobc_a1/doc/index.html
 	GitHub | For other technical information, please refer to the following. | https://github.com/spacecubics
 	{% end %}
-
-	{% prefooter(
-		left_card_image="about.jpg",
-		right_card_image="earth.jpg",
-
-		left_title="ABOUT US",
-		left_subtitle="Company details",
-		left_footer_1="Aiming for an era where anyone can go to the moon,",
-		left_footer_2="we are a JAXA venture developing affordable and reliable computers for space use.",
-		left_link="/en/about_us",
-
-		right_title="RECRUIT",
-		right_subtitle="Employment information",
-		right_footer_1="We are always looking for new members to join our team.",
-		right_footer_2="If you are interested, please contact us.",
-		right_link="/en/recruit",
-
-		bottom_card_image = "<!--display element -->",
-		bottom_title="CONTACT",
-		bottom_subtitle="Send a message",
-		bottom_footer_1="We welcome inquiries about our business and services.",
-		bottom_footer_2="Please feel free to contact us.",
-		bottom_link="/en/contact",
-
-		bg=""
-	) %}
-	<!--display element -->
-	{% end %}
 </section>
+
+{% prefooter(
+	left_card_image="about.jpg",
+	right_card_image="earth.jpg",
+
+	left_title="ABOUT US",
+	left_subtitle="Company details",
+	left_footer_1="Aiming for an era where anyone can go to the moon,",
+	left_footer_2="we are a JAXA venture developing affordable and reliable computers for space use.",
+	left_link="/en/about_us",
+
+	right_title="RECRUIT",
+	right_subtitle="Employment information",
+	right_footer_1="We are always looking for new members to join our team.",
+	right_footer_2="If you are interested, please contact us.",
+	right_link="/en/recruit",
+
+	bottom_card_image = "",
+	bottom_title="CONTACT",
+	bottom_subtitle="Send a message",
+	bottom_footer_1="We welcome inquiries about our business and services.",
+	bottom_footer_2="Please feel free to contact us.",
+	bottom_link="/en/contact",
+
+	bg=""
+) %}
+<!--display element -->
+{% end %}

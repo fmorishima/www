@@ -104,7 +104,7 @@ title = "Space Cubics Inc."
 	right_footer_2="決算や適時開示情報などをご紹介しています。",
 	right_link="/ir_info",
 
-	bottom_card_image = "<!--display element -->",
+	bottom_card_image = "",
 	bottom_title = "CONTACT",
 	bottom_subtitle = "お問い合わせ",
 	bottom_footer_1 = "事業やサービスについてご相談・ご質問承ります。",

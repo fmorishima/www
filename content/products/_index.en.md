@@ -61,7 +61,7 @@
 	right_footer_2="If you are interested, please contact us.",
 	right_link="/en/recruit",
 
-	bottom_card_image = "<!--display element -->",
+	bottom_card_image = "",
 	bottom_title="CONTACT",
 	bottom_subtitle="Send a message",
 	bottom_footer_1="We welcome inquiries about our business and services.",

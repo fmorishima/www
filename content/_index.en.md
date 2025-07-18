@@ -105,7 +105,7 @@ Our mission is to support sustainable growth through partnership with teams that
 	right_footer_2="we gladly provide financial data in a timely manner.",
 	right_link="/en/ir_info",
 
-	bottom_card_image = "<!--display element -->",
+	bottom_card_image = "",
 	bottom_title = "CONTACT",
 	bottom_subtitle = "Reach out to us.",
 	bottom_footer_1 = "We welcome inquiries about our business and services.",
