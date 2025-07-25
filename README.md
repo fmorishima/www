@@ -1,4 +1,4 @@
-# Space Cubics Inc. Website
+# Space Cubics Website
 
 This is a corporate website built with [Zola](https://www.getzola.org/) - a static site generator written in Rust.
 
