@@ -39,7 +39,8 @@ This repository is organized into only a few main folders...
 	content/
 	├── _index.en.md     # English homepage
 	├── _index.md        # Japanese homepage
-	├── about_us/        # About us section
+	├── about_us.md      # About us page
+	├── about_us.en.md   # About us English page
 	├── contact/         # Contact forms
 	├── ir_info/         # Investor relations
 	├── news/            # News articles
