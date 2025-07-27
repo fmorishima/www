@@ -147,31 +147,43 @@ Content here
 
 ## Content Management
 
-### Adding New Pages
-1. Create a new folder, such as: `content/your_new_page/`
+### Adding New Section
+1. Create a new folder, such as: `content/your_new_section/`
 2. Add `_index.md` and `_index.en.md` files
 2. Add front matter and content (text and shortcode elements)
-```markdown
-+++
-title = "Page Title"
-description = "Page description"
-+++
+   ```markdown
+   +++
+   title = "Section Title"
+   description = "Section description"
+   +++
 
-Content here...
+   Content here...
 
+   ```
 
-{% prefooter(
-	left_card_image="earth.jpg",
-	left_title="RECRUIT",
-	left_link="/recruit"
-) %}
-{% end %}
+### Adding New Page
+1. Create a new file, such as: `content/your_new_page.md`
+2. Add front matter and content (text and shortcode elements)
+   ```markdown
+   +++
+   title = "Page Title"
+   description = "Page description"
+   +++
 
-```
+   Content here...
 
-### Adding News Articles
-1. Create a new folder in `content/news/YYYY-MM-DD/`
-2. Add `_index.md` and `_index.en.md` files
+   ```
+
+### Adding New News Articles
+1. Create a new file in `content/news/`
+2. Name it with date. ex) `2025-06-01.md` and `2025-06-01.en.md`
+3. Add front matter and content (text and shortcode elements)
+4. If you want to show an image other than SC log, add it to the front matter
+   ```toml
+   [extra]
+   image = "brainchild.png"
+   ```
+   If not specified, SC logo is used.
 
 ## Deployment
 
