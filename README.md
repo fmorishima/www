@@ -74,6 +74,7 @@ This repository is organized into only a few main folders...
 	├── logo_black.webp
 	├── logo_white.webp
 	└── sc-obc_module_a1.jpg
+	```
 
 ...and some important configuration files such as...
 
