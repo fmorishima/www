@@ -92,7 +92,7 @@ prefooter_cards = ["products/_index.md", "recruit/_index.md", "contact/_index.md
 	date = 2018-05-29
 
 	[extra]
-	link = "http://aerospacebiz.jaxa.jp/venture/"
+	link = "https://aerospacebiz.jaxa.jp/venture/"
 	+++
    ```
 
