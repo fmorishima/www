@@ -35,13 +35,13 @@ zola serve
 4. Add link variable under [extra] if article has external link.
 5. Example:
    ```toml
-	+++
-	title = "「JAXAベンチャー」の認定"
-	date = 2018-05-29
+   +++
+   title = "「JAXAベンチャー」の認定"
+   date = 2018-05-29
 
-	[extra]
-	link = "https://aerospacebiz.jaxa.jp/venture/"
-	+++
+   [extra]
+   link = "https://aerospacebiz.jaxa.jp/venture/"
+   +++
    ```
 
 As shown above, there are two date values: one in the file name and

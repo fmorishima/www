@@ -65,7 +65,6 @@ prefooter_cards = ["products/_index.md", "recruit/_index.md", "contact/_index.md
    +++
 
    Content here...
-
    ```
 
 ### Adding New Page
@@ -78,7 +77,6 @@ prefooter_cards = ["products/_index.md", "recruit/_index.md", "contact/_index.md
    +++
 
    Content here...
-
    ```
 
 ### Adding New News Articles
@@ -88,13 +86,13 @@ prefooter_cards = ["products/_index.md", "recruit/_index.md", "contact/_index.md
 4. Add link variable under [extra] if article has external link.
 5. Example:
    ```toml
-	+++
-	title = "「JAXAベンチャー」の認定"
-	date = 2018-05-29
+   +++
+   title = "「JAXAベンチャー」の認定"
+   date = 2018-05-29
 
-	[extra]
-	link = "https://aerospacebiz.jaxa.jp/venture/"
-	+++
+   [extra]
+   link = "https://aerospacebiz.jaxa.jp/venture/"
+   +++
    ```
 
 ## Deployment
@@ -117,17 +115,18 @@ Required for contact form functionality:
 Some common programming syntax is not supported by Tera.
 
 For example, ternary operators are not supported in Tera templates - instead use `if`/`else` blocks:
-	```
-	/* ❌ Incorrect - This will not work: */
-	{{ is_active ? "active" : "inactive" }}
 
-	/* ✅ Correct - Use if/else blocks instead: */
-	{% if is_active %}
-	active
-	{% else %}
-	inactive
-	{% endif %}
-	```
+```
+/* ❌ Incorrect - This will not work: */
+{{ is_active ? "active" : "inactive" }}
+
+/* ✅ Correct - Use if/else blocks instead: */
+{% if is_active %}
+active
+{% else %}
+inactive
+{% endif %}
+```
 
 See the Tera documentation for more details.
 
