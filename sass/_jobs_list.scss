@@ -19,7 +19,7 @@
 			font-size: 2.75rem;
 			margin-bottom: 0.1rem;
 			line-height: 1.1;
-			font-weight: 600;
+			font-weight: bold;
 		}
 
 		p.jobs-list__subtitle {
@@ -32,7 +32,7 @@
 			margin: 0;
 			font-size: 1rem;
 			color: #fff;
-			font-weight: 600;
+			font-weight: bold;
 		}
 
 		.jobs-list__divider {
@@ -106,7 +106,6 @@
 			}
 
 			&__recruiting-label {
-				font-weight: 500;
 				margin-top: 0.5rem;
 				color: #f77d06;
 				font-size: 0.9rem;
