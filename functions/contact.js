@@ -10,7 +10,7 @@ export const onRequestPost = async ({ request, env }) => {
 		}
 
 		// Required field validation
-		if (!name || !email || !role || !message) {
+		if (!name || !email || !message) {
 			return new Response("Missing required fields", { status: 400 });
 		}
 
