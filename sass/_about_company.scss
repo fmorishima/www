@@ -1,7 +1,7 @@
 .about-company-block {
 	display: flex;
 	flex-wrap: nowrap;
-	gap: 0.5rem;
+	gap: 1.5rem;
 	background-size: cover;
 	padding: 1rem;
 	width: 90vw;
@@ -25,7 +25,7 @@
 }
 
 .about-company-left {
-	flex: 0 0 35%;
+	flex: 0 0 30%;
 	display: flex;
 	flex-direction: column;
 	gap: 0.5rem;
