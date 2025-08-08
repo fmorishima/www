@@ -33,8 +33,9 @@ zola serve
 2. Name it by date. ex) `2025-06-01.md` and `2025-06-01.en.md`
 3. Add title (string) and date (YYYY-MM-DD) variables to front matter.
 4. Add link variable under [extra] if article has external link.
-5. Example:
-   ```toml
+5. Add your news.
+
+   ```
    +++
    title = "「JAXAベンチャー」の認定"
    date = 2018-05-29
