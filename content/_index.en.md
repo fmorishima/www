@@ -55,7 +55,5 @@ Space Cubics, Inc.
 	link_text="",
 	img_link=""
 ) %}
-We work alongside pioneering venture companies in the growing space industry.
-<br><br>
-Our mission is to support sustainable growth through partnership with teams that possess innovative technology and ideas.
+Trusted by leading space innovators who push the boundaries of technology
 {% end %}
